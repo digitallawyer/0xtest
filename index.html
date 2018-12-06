@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <script src="https://instant.0xproject.com/instant.js"></script>
+    <title>JSDoc: Home</title>
+
+    <script src="scripts/prettify/prettify.js"> </script>
+    <script src="scripts/prettify/lang-css.js"> </script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link type="text/css" rel="stylesheet" href="styles/prettify-tomorrow.css">
+    <link type="text/css" rel="stylesheet" href="styles/jsdoc-default.css">
+</head>
+
+<body>
+
+<div id="main">
+<script>
+            zeroExInstant.render({
+                orderSource: 'https://api.radarrelay.com/0x/v2/',
+                additionalAssetMetaDataMap: {
+                  '0xf47261b0000000000000000000000000744d70fdbe2bc4cf95131626614a1764df805b9e': {
+                assetProxyId: '0xf47261b0', // ERC20 Proxy Id
+                decimals: 18,
+                primaryColor: '#F2F7FF', // Optional
+                symbol: 'XXX',
+                name: 'My Custom Token',
+                },
+            },
+            }, 'body');
+        </script>
+</body>
+</html>
